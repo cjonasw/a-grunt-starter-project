@@ -1,0 +1,63 @@
+$poo: lime;
+$bar: aqua;
+$foo: brown;
+
+$svgColorPrimary: yellow;
+$svgColorSecondary: red;
+$svgColorTertiary: orange;
+$svgColorQuaternary: green;
+$svgColorQuinary: fuchsia;
+
+h1{
+  background: $bar;
+  padding: 1em;
+  color: $poo;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background: $poo;
+  height: 100%;
+  margin: 0;
+}
+
+.foo{
+  fill: $svgColorQuaternary;
+  background: $svgColorSecondary;
+
+  width: 10em;
+  height: 10em;
+
+  width: 600px;
+  height: 600px;
+
+  width: 50%;
+  height: 50%;
+}
+
+.bar{
+  fill: $svgColorPrimary;
+  background: $svgColorQuaternary;
+  pointer-events:all;
+  width: 2em;
+  -webkit-transition: width 0.5s ease, fill 0.1s ease, background 0.2s ease;
+}
+
+.bar:hover{
+  fill: blue;
+  width: 6em;
+  background: $svgColorQuinary;
+}
+
+use{
+  width: 200px;
+  fill: $svgColorTertiary;
+  -webkit-transition: fill 0.2s ease;
+}
+
+use:hover{
+  fill: $svgColorQuaternary;
+}
