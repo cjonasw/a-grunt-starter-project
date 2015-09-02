@@ -2,6 +2,15 @@ module.exports = (grunt) ->
 
   grunt.initConfig
 
+    connect:
+
+      server:
+
+        options:
+          port: 9001,
+          base: ['', 'target'],
+          livereload: true
+
     jade:
       dist: # Can be called whatever you want
         files: [ {
@@ -70,6 +79,7 @@ module.exports = (grunt) ->
     'svgstore'
     'sass'
     'jade'
+    'connect:server'
     'watch'
   ]
 
@@ -77,3 +87,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-svgstore'
   grunt.loadNpmTasks 'grunt-contrib-sass'
   grunt.loadNpmTasks 'grunt-contrib-jade'
+  grunt.loadNpmTasks 'grunt-contrib-connect'
