@@ -18,7 +18,7 @@ Starter project using the following:
 
   `npm` will then be assessable from the Command Prompt (Windows) / Terminal (Mac).
 
-- Open up Command Prompt (Windows) / Terminal (Mac) and run
+2. Open up Command Prompt (Windows) / Terminal (Mac) and run
 
   ```
   npm install -g grunt-cli
@@ -26,17 +26,17 @@ Starter project using the following:
 
   This will install the grunt command line interface globally so that you can run `grunt` tasks from the command line.
 
-- Clone this repository
+3. Clone this repository
 
-- `cd` to the directory in command line
+4. `cd` to the directory in command line
 
-- Install the node packages defined in this project (in 'package.json'):
+5. Install the node packages defined in this project (in 'package.json'):
 
   ```
   npm install
   ```
 
-- Run the `dev` grunt task that has been registered in this project:
+6. Run the `dev` grunt task that has been registered in this project:
 
   ```
   grunt dev
@@ -50,9 +50,9 @@ Starter project using the following:
     - `.svg` file changes inside of 'src/svg' will run the `svgstore` task.
     - `.scss` file changes inside of 'src' will run the `sass` task.
     - `.jade` file changes inside of 'src' will run the `jade` task.
-- Navigate to http://localhost:9001.
-- Change some files in 'src' directory and watch the magic happen...
-- Victory poo! 💩🎉
+7. Navigate to http://localhost:9001.
+8. Change some files in 'src' directory and watch the magic happen...
+9. Victory poo! 💩🎉
 
 **Note:** It may require the browser to be opened with file web security off for the 'svg-defs.svg' 'ng-include' to work:
 
