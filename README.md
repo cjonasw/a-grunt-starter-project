@@ -2,11 +2,11 @@
 
 Starter project using the following:
 
-- grunt-svgstore
-- grunt-contrib-sass
-- grunt-contrib-jade
-- grunt-contrib-watch
-- grunt-contrib-connect
+- [grunt-svgstore](https://github.com/FWeinb/grunt-svgstore)
+- [grunt-contrib-sass](https://github.com/gruntjs/grunt-contrib-sass)
+- [grunt-contrib-jade](https://github.com/gruntjs/grunt-contrib-jade)
+- [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
+- [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)
 
 ## Instructions
 
