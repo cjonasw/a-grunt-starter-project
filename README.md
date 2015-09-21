@@ -12,7 +12,7 @@ Starter project using the following:
 
 1. Install Node.js (for first timers)
 
-  If you haven't installed Node on your system do so from here https://nodejs.org/
+  If you haven't installed Node on your system do so from here [nodejs.org](https://nodejs.org/)
 
   Follow the install instructions.
 
